@@ -9,4 +9,5 @@ int main() {
     ImageBrightener brightener(image);
     int attenuatedCount = brightener.BrightenWholeImage();
     std::cout << "Attenuated " << attenuatedCount << " pixels\n";
+    delete[] image.pixels;
 }

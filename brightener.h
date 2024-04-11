@@ -13,5 +13,4 @@ private:
 public:
 	ImageBrightener(Image& inputImage);
 	int BrightenWholeImage();
-	Image GetImage();
 };
